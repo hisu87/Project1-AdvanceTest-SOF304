@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\numpa\AppData\Local\Temp\testng-eclipse-1433198733\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">62 methods, 11 failed,   51 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC02">TC02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NhanVienDAOTest" class="method navigator-link" hash-for-method="testAddNewEmployee">testAddNewEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NhanVienDAOTest" class="method navigator-link" hash-for-method="testDeleteEmployee">testDeleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NhanVienDAOTest" class="method navigator-link" hash-for-method="testDeleteMultipleEmployees">testDeleteMultipleEmployees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest3" class="method navigator-link" hash-for-method="testGetDoanhThuDateRange">testGetDoanhThuDateRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest2" class="method navigator-link" hash-for-method="testGetDoanhThuDateRange">testGetDoanhThuDateRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest2" class="method navigator-link" hash-for-method="testGetDoanhThuDay">testGetDoanhThuDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest3" class="method navigator-link" hash-for-method="testGetDoanhThuDay">testGetDoanhThuDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NhanVienDAOTest" class="method navigator-link" hash-for-method="testSearchEmployeesByCriteria">testSearchEmployeesByCriteria</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NhanVienDAOTest" class="method navigator-link" hash-for-method="testUpdateEmployeeWithInvalidInformation">testUpdateEmployeeWithInvalidInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoadonchitietTest" class="method navigator-link" hash-for-method="testcases7">testcases7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC01">TC01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC01">TC01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC02">TC02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC03">TC03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC03">TC03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC04">TC04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC04">TC04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC05">TC05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC05">TC05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC06">TC06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC06">TC06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC07">TC07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC07">TC07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NguyenLieuDaoTest" class="method navigator-link" hash-for-method="TC08">TC08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="TC08">TC08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC08">TC08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest" class="method navigator-link" hash-for-method="TC09">TC09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="TC09">TC09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoadonchitietTest" class="method navigator-link" hash-for-method="TestCases01">TestCases01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoadonchitietTest" class="method navigator-link" hash-for-method="Testcases02">Testcases02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="deleteTest">deleteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="deleteTest_2">deleteTest_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="insertTest">insertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="insertTestFail">insertTestFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="insertTestFail_2">insertTestFail_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NhanVienDAOTest" class="method navigator-link" hash-for-method="testAddEmployeeWithInvalidInformation">testAddEmployeeWithInvalidInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoadonchitietTest" class="method navigator-link" hash-for-method="testCases5">testCases5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoadonchitietTest" class="method navigator-link" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoaDonDAOTest" class="method navigator-link" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testDeleteSanPham">testDeleteSanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest3" class="method navigator-link" hash-for-method="testGetDoanhThuMonth">testGetDoanhThuMonth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest2" class="method navigator-link" hash-for-method="testGetDoanhThuMonth">testGetDoanhThuMonth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest2" class="method navigator-link" hash-for-method="testGetDoanhThuYear">testGetDoanhThuYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.ThongKeDAOTest3" class="method navigator-link" hash-for-method="testGetDoanhThuYear">testGetDoanhThuYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testInsert">testInsert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoaDonDAOTest" class="method navigator-link" hash-for-method="testInsert">testInsert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testInsertInvalidSanPham">testInsertInvalidSanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testInsertNewSanPham">testInsertNewSanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoaDonDAOTest" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoaDonDAOTest" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoaDonDAOTest" class="method navigator-link" hash-for-method="testSelectByKeyword">testSelectByKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.NhanVienDAOTest" class="method navigator-link" hash-for-method="testUpdateEmployeeInformation">testUpdateEmployeeInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.SanPhamDaoTest" class="method navigator-link" hash-for-method="testUpdateSanPham">testUpdateSanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoadonchitietTest" class="method navigator-link" hash-for-method="testcases4">testcases4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.HoadonchitietTest" class="method navigator-link" hash-for-method="testcases6">testcases6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="updateTest">updateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="group1.dao.CongThucDaoTest" class="method navigator-link" hash-for-method="updateTest_2">updateTest_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">group1.dao.HoadonchitietTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases7">
+                  </a> <!-- testcases7 -->
+                  <span class="method-name">testcases7</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [25] but found [33]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at group1.dao.HoadonchitietTest.testcases7(HoadonchitietTest.java:161)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">group1.dao.ThongKeDAOTest3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuDateRange">
+                  </a> <!-- testGetDoanhThuDateRange -->
+                  <span class="method-name">testGetDoanhThuDateRange</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at group1.dao.ThongKeDAOTest3.testGetDoanhThuDateRange(ThongKeDAOTest3.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuDay">
+                  </a> <!-- testGetDoanhThuDay -->
+                  <span class="method-name">testGetDoanhThuDay</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at group1.dao.ThongKeDAOTest3.testGetDoanhThuDay(ThongKeDAOTest3.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">group1.dao.ThongKeDAOTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuDateRange">
+                  </a> <!-- testGetDoanhThuDateRange -->
+                  <span class="method-name">testGetDoanhThuDateRange</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at group1.dao.ThongKeDAOTest2.testGetDoanhThuDateRange(ThongKeDAOTest2.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuDay">
+                  </a> <!-- testGetDoanhThuDay -->
+                  <span class="method-name">testGetDoanhThuDay</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at group1.dao.ThongKeDAOTest2.testGetDoanhThuDay(ThongKeDAOTest2.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">group1.dao.NguyenLieuDaoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02">
+                  </a> <!-- TC02 -->
+                  <span class="method-name">TC02</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;63&gt; but was:&lt;64&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at group1.dao.NguyenLieuDaoTest.TC02(NguyenLieuDaoTest.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">group1.dao.NhanVienDAOTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNewEmployee">
+                  </a> <!-- testAddNewEmployee -->
+                  <span class="method-name">testAddNewEmployee</span>
+                  <div class="stack-trace">org.opentest4j.AssertionFailedError: expected: not equal but was: &lt;7&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:277)
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:94)
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:1981)
+	at group1.dao.NhanVienDAOTest.testAddNewEmployee(NhanVienDAOTest.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteEmployee">
+                  </a> <!-- testDeleteEmployee -->
+                  <span class="method-name">testDeleteEmployee</span>
+                  <div class="stack-trace">org.opentest4j.AssertionFailedError: expected: not equal but was: &lt;7&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:277)
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:94)
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:1981)
+	at group1.dao.NhanVienDAOTest.testDeleteEmployee(NhanVienDAOTest.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteMultipleEmployees">
+                  </a> <!-- testDeleteMultipleEmployees -->
+                  <span class="method-name">testDeleteMultipleEmployees</span>
+                  <div class="stack-trace">org.opentest4j.AssertionFailedError: expected: not equal but was: &lt;7&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:277)
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:94)
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:1981)
+	at group1.dao.NhanVienDAOTest.testDeleteMultipleEmployees(NhanVienDAOTest.java:164)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchEmployeesByCriteria">
+                  </a> <!-- testSearchEmployeesByCriteria -->
+                  <span class="method-name">testSearchEmployeesByCriteria</span>
+                  <div class="stack-trace">org.opentest4j.AssertionFailedError: expected: &lt;4&gt; but was: &lt;5&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+	at group1.dao.NhanVienDAOTest.testSearchEmployeesByCriteria(NhanVienDAOTest.java:181)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateEmployeeWithInvalidInformation">
+                  </a> <!-- testUpdateEmployeeWithInvalidInformation -->
+                  <span class="method-name">testUpdateEmployeeWithInvalidInformation</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;group1.entity.NhanVien.getHoTen()&quot; because &quot;nhanVienUpdated&quot; is null
+	at group1.dao.NhanVienDAOTest.testUpdateEmployeeWithInvalidInformation(NhanVienDAOTest.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.HoaDonDAOTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsert">
+                  </a> <!-- testInsert -->
+                  <span class="method-name">testInsert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectByKeyword">
+                  </a> <!-- testSelectByKeyword -->
+                  <span class="method-name">testSelectByKeyword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.HoadonchitietTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCases01">
+                  </a> <!-- TestCases01 -->
+                  <span class="method-name">TestCases01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Testcases02">
+                  </a> <!-- Testcases02 -->
+                  <span class="method-name">Testcases02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCases5">
+                  </a> <!-- testCases5 -->
+                  <span class="method-name">testCases5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases4">
+                  </a> <!-- testcases4 -->
+                  <span class="method-name">testcases4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases6">
+                  </a> <!-- testcases6 -->
+                  <span class="method-name">testcases6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.ThongKeDAOTest3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuMonth">
+                  </a> <!-- testGetDoanhThuMonth -->
+                  <span class="method-name">testGetDoanhThuMonth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuYear">
+                  </a> <!-- testGetDoanhThuYear -->
+                  <span class="method-name">testGetDoanhThuYear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.ThongKeDAOTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuMonth">
+                  </a> <!-- testGetDoanhThuMonth -->
+                  <span class="method-name">testGetDoanhThuMonth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDoanhThuYear">
+                  </a> <!-- testGetDoanhThuYear -->
+                  <span class="method-name">testGetDoanhThuYear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.SanPhamDaoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSanPham">
+                  </a> <!-- testDeleteSanPham -->
+                  <span class="method-name">testDeleteSanPham</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsert">
+                  </a> <!-- testInsert -->
+                  <span class="method-name">testInsert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertInvalidSanPham">
+                  </a> <!-- testInsertInvalidSanPham -->
+                  <span class="method-name">testInsertInvalidSanPham</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertNewSanPham">
+                  </a> <!-- testInsertNewSanPham -->
+                  <span class="method-name">testInsertNewSanPham</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateSanPham">
+                  </a> <!-- testUpdateSanPham -->
+                  <span class="method-name">testUpdateSanPham</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.CongThucDaoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08">
+                  </a> <!-- TC08 -->
+                  <span class="method-name">TC08</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC09">
+                  </a> <!-- TC09 -->
+                  <span class="method-name">TC09</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTest">
+                  </a> <!-- deleteTest -->
+                  <span class="method-name">deleteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTest_2">
+                  </a> <!-- deleteTest_2 -->
+                  <span class="method-name">deleteTest_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertTest">
+                  </a> <!-- insertTest -->
+                  <span class="method-name">insertTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertTestFail">
+                  </a> <!-- insertTestFail -->
+                  <span class="method-name">insertTestFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertTestFail_2">
+                  </a> <!-- insertTestFail_2 -->
+                  <span class="method-name">insertTestFail_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTest">
+                  </a> <!-- updateTest -->
+                  <span class="method-name">updateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTest_2">
+                  </a> <!-- updateTest_2 -->
+                  <span class="method-name">updateTest_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.NguyenLieuDaoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01">
+                  </a> <!-- TC01 -->
+                  <span class="method-name">TC01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03">
+                  </a> <!-- TC03 -->
+                  <span class="method-name">TC03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04">
+                  </a> <!-- TC04 -->
+                  <span class="method-name">TC04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05">
+                  </a> <!-- TC05 -->
+                  <span class="method-name">TC05</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06">
+                  </a> <!-- TC06 -->
+                  <span class="method-name">TC06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07">
+                  </a> <!-- TC07 -->
+                  <span class="method-name">TC07</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08">
+                  </a> <!-- TC08 -->
+                  <span class="method-name">TC08</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.ThongKeDAOTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01">
+                  </a> <!-- TC01 -->
+                  <span class="method-name">TC01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02">
+                  </a> <!-- TC02 -->
+                  <span class="method-name">TC02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03">
+                  </a> <!-- TC03 -->
+                  <span class="method-name">TC03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04">
+                  </a> <!-- TC04 -->
+                  <span class="method-name">TC04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05">
+                  </a> <!-- TC05 -->
+                  <span class="method-name">TC05</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06">
+                  </a> <!-- TC06 -->
+                  <span class="method-name">TC06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07">
+                  </a> <!-- TC07 -->
+                  <span class="method-name">TC07</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08">
+                  </a> <!-- TC08 -->
+                  <span class="method-name">TC08</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC09">
+                  </a> <!-- TC09 -->
+                  <span class="method-name">TC09</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">group1.dao.NhanVienDAOTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddEmployeeWithInvalidInformation">
+                  </a> <!-- testAddEmployeeWithInvalidInformation -->
+                  <span class="method-name">testAddEmployeeWithInvalidInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateEmployeeInformation">
+                  </a> <!-- testUpdateEmployeeInformation -->
+                  <span class="method-name">testUpdateEmployeeInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\numpa\AppData\Local\Temp\testng-eclipse-1433198733\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;group1.dao.CongThucDaoTest&quot;/&gt;
+      &lt;class name=&quot;group1.dao.SanPhamDaoTest&quot;/&gt;
+      &lt;class name=&quot;group1.dao.ThongKeDAOTest2&quot;/&gt;
+      &lt;class name=&quot;group1.dao.ThongKeDAOTest&quot;/&gt;
+      &lt;class name=&quot;group1.dao.HoaDonDAOTest&quot;/&gt;
+      &lt;class name=&quot;group1.dao.ThongKeDAOTest3&quot;/&gt;
+      &lt;class name=&quot;group1.dao.NhanVienDAOTest&quot;/&gt;
+      &lt;class name=&quot;group1.dao.NguyenLieuDaoTest&quot;/&gt;
+      &lt;class name=&quot;group1.dao.HoadonchitietTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(62);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC08')
+data.setCell(0, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(0, 3, 1342);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deleteTest_2')
+data.setCell(1, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(1, 3, 214);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC06')
+data.setCell(2, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(2, 3, 121);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC09')
+data.setCell(3, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(3, 3, 111);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'updateTest_2')
+data.setCell(4, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(4, 3, 89);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeleteSanPham')
+data.setCell(5, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(5, 3, 84);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteTest')
+data.setCell(6, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(6, 3, 78);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetDoanhThuDateRange')
+data.setCell(7, 2, 'group1.dao.ThongKeDAOTest2')
+data.setCell(7, 3, 78);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testInsertNewSanPham')
+data.setCell(8, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(8, 3, 75);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testUpdate')
+data.setCell(9, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(9, 3, 74);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC04')
+data.setCell(10, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(10, 3, 73);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testcases6')
+data.setCell(11, 2, 'group1.dao.HoadonchitietTest')
+data.setCell(11, 3, 72);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testInsert')
+data.setCell(12, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(12, 3, 67);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDelete')
+data.setCell(13, 2, 'group1.dao.HoaDonDAOTest')
+data.setCell(13, 3, 67);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDeleteMultipleEmployees')
+data.setCell(14, 2, 'group1.dao.NhanVienDAOTest')
+data.setCell(14, 3, 66);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Testcases02')
+data.setCell(15, 2, 'group1.dao.HoadonchitietTest')
+data.setCell(15, 3, 65);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testDelete')
+data.setCell(16, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(16, 3, 60);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSelectById')
+data.setCell(17, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(17, 3, 59);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC01')
+data.setCell(18, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(18, 3, 57);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'updateTest')
+data.setCell(19, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(19, 3, 53);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testcases4')
+data.setCell(20, 2, 'group1.dao.HoadonchitietTest')
+data.setCell(20, 3, 51);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testAddEmployeeWithInvalidInformation')
+data.setCell(21, 2, 'group1.dao.NhanVienDAOTest')
+data.setCell(21, 3, 50);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC02')
+data.setCell(22, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(22, 3, 49);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testInsertInvalidSanPham')
+data.setCell(23, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(23, 3, 48);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC03')
+data.setCell(24, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(24, 3, 45);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testDeleteEmployee')
+data.setCell(25, 2, 'group1.dao.NhanVienDAOTest')
+data.setCell(25, 3, 44);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC05')
+data.setCell(26, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(26, 3, 43);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testAddNewEmployee')
+data.setCell(27, 2, 'group1.dao.NhanVienDAOTest')
+data.setCell(27, 3, 43);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestCases01')
+data.setCell(28, 2, 'group1.dao.HoadonchitietTest')
+data.setCell(28, 3, 42);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testUpdateSanPham')
+data.setCell(29, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(29, 3, 41);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testInsert')
+data.setCell(30, 2, 'group1.dao.HoaDonDAOTest')
+data.setCell(30, 3, 33);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testUpdateEmployeeInformation')
+data.setCell(31, 2, 'group1.dao.NhanVienDAOTest')
+data.setCell(31, 3, 31);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testCases5')
+data.setCell(32, 2, 'group1.dao.HoadonchitietTest')
+data.setCell(32, 3, 29);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testDelete')
+data.setCell(33, 2, 'group1.dao.HoadonchitietTest')
+data.setCell(33, 3, 28);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TC01')
+data.setCell(34, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(34, 3, 26);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TC07')
+data.setCell(35, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(35, 3, 26);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testUpdateEmployeeWithInvalidInformation')
+data.setCell(36, 2, 'group1.dao.NhanVienDAOTest')
+data.setCell(36, 3, 25);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testGetDoanhThuMonth')
+data.setCell(37, 2, 'group1.dao.ThongKeDAOTest2')
+data.setCell(37, 3, 21);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testSelectAll')
+data.setCell(38, 2, 'group1.dao.HoaDonDAOTest')
+data.setCell(38, 3, 20);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testGetDoanhThuYear')
+data.setCell(39, 2, 'group1.dao.ThongKeDAOTest2')
+data.setCell(39, 3, 20);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testSelectById')
+data.setCell(40, 2, 'group1.dao.HoaDonDAOTest')
+data.setCell(40, 3, 17);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testGetDoanhThuDay')
+data.setCell(41, 2, 'group1.dao.ThongKeDAOTest2')
+data.setCell(41, 3, 17);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGetDoanhThuDateRange')
+data.setCell(42, 2, 'group1.dao.ThongKeDAOTest3')
+data.setCell(42, 3, 17);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'TC04')
+data.setCell(43, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(43, 3, 16);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'TC03')
+data.setCell(44, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(44, 3, 16);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'TC05')
+data.setCell(45, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(45, 3, 16);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'TC02')
+data.setCell(46, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(46, 3, 16);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testSelectByKeyword')
+data.setCell(47, 2, 'group1.dao.HoaDonDAOTest')
+data.setCell(47, 3, 16);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testGetDoanhThuDay')
+data.setCell(48, 2, 'group1.dao.ThongKeDAOTest3')
+data.setCell(48, 3, 16);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'TC06')
+data.setCell(49, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(49, 3, 15);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'TC09')
+data.setCell(50, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(50, 3, 15);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testSelectAll')
+data.setCell(51, 2, 'group1.dao.SanPhamDaoTest')
+data.setCell(51, 3, 15);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'TC07')
+data.setCell(52, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(52, 3, 15);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'TC08')
+data.setCell(53, 2, 'group1.dao.ThongKeDAOTest')
+data.setCell(53, 3, 15);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testGetDoanhThuYear')
+data.setCell(54, 2, 'group1.dao.ThongKeDAOTest3')
+data.setCell(54, 3, 15);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testcases7')
+data.setCell(55, 2, 'group1.dao.HoadonchitietTest')
+data.setCell(55, 3, 15);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testSearchEmployeesByCriteria')
+data.setCell(56, 2, 'group1.dao.NhanVienDAOTest')
+data.setCell(56, 3, 15);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testGetDoanhThuMonth')
+data.setCell(57, 2, 'group1.dao.ThongKeDAOTest3')
+data.setCell(57, 3, 14);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'insertTestFail_2')
+data.setCell(58, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(58, 3, 2);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'insertTestFail')
+data.setCell(59, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(59, 3, 2);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'insertTest')
+data.setCell(60, 2, 'group1.dao.CongThucDaoTest')
+data.setCell(60, 3, 2);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'TC08')
+data.setCell(61, 2, 'group1.dao.NguyenLieuDaoTest')
+data.setCell(61, 3, 1);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.CongThucDaoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC08</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC09</span>
+                <span class="method-start">1355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteTest</span>
+                <span class="method-start">1469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteTest_2</span>
+                <span class="method-start">1551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">insertTest</span>
+                <span class="method-start">1768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">insertTestFail</span>
+                <span class="method-start">1772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">insertTestFail_2</span>
+                <span class="method-start">1776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateTest</span>
+                <span class="method-start">1780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateTest_2</span>
+                <span class="method-start">1834 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.SanPhamDaoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">1931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSanPham</span>
+                <span class="method-start">1992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInsert</span>
+                <span class="method-start">2078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInsertInvalidSanPham</span>
+                <span class="method-start">2146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInsertNewSanPham</span>
+                <span class="method-start">2196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">2272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">2289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">2349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateSanPham</span>
+                <span class="method-start">2424 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.ThongKeDAOTest2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetDoanhThuDateRange</span>
+                <span class="method-start">2466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetDoanhThuDay</span>
+                <span class="method-start">2546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDoanhThuMonth</span>
+                <span class="method-start">2564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDoanhThuYear</span>
+                <span class="method-start">2585 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.ThongKeDAOTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC01</span>
+                <span class="method-start">2608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02</span>
+                <span class="method-start">2635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC03</span>
+                <span class="method-start">2652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC04</span>
+                <span class="method-start">2669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC05</span>
+                <span class="method-start">2686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC06</span>
+                <span class="method-start">2702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC07</span>
+                <span class="method-start">2718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC08</span>
+                <span class="method-start">2735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC09</span>
+                <span class="method-start">2750 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.HoaDonDAOTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">2768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInsert</span>
+                <span class="method-start">2838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">2873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">2895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectByKeyword</span>
+                <span class="method-start">2914 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.ThongKeDAOTest3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetDoanhThuDateRange</span>
+                <span class="method-start">2930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetDoanhThuDay</span>
+                <span class="method-start">2948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDoanhThuMonth</span>
+                <span class="method-start">2965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDoanhThuYear</span>
+                <span class="method-start">2981 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.NhanVienDAOTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddEmployeeWithInvalidInformation</span>
+                <span class="method-start">2998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddNewEmployee</span>
+                <span class="method-start">3050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDeleteEmployee</span>
+                <span class="method-start">3094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDeleteMultipleEmployees</span>
+                <span class="method-start">3139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchEmployeesByCriteria</span>
+                <span class="method-start">3207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateEmployeeInformation</span>
+                <span class="method-start">3224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testUpdateEmployeeWithInvalidInformation</span>
+                <span class="method-start">3256 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.NguyenLieuDaoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC01</span>
+                <span class="method-start">3282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC02</span>
+                <span class="method-start">3341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC03</span>
+                <span class="method-start">3391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC04</span>
+                <span class="method-start">3437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC05</span>
+                <span class="method-start">3511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC06</span>
+                <span class="method-start">3555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC07</span>
+                <span class="method-start">3677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC08</span>
+                <span class="method-start">3704 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">group1.dao.HoadonchitietTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestCases01</span>
+                <span class="method-start">3706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Testcases02</span>
+                <span class="method-start">3748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCases5</span>
+                <span class="method-start">3814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">3844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases4</span>
+                <span class="method-start">3873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases6</span>
+                <span class="method-start">3926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcases7</span>
+                <span class="method-start">4000 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
