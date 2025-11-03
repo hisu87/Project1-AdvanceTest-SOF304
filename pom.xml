@@ -70,7 +70,7 @@
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>9.4.0.jre11</version> <!-- Hoặc sử dụng phiên bản mới nhất -->
+            <version>10.2.4.jre11</version> <!-- Hoặc sử dụng phiên bản mới nhất -->
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.toedter/jcalendar -->
         <dependency>
